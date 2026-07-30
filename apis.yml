@@ -1,7 +1,23 @@
 aid: loku
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loku.png
 name: Loku
-description: Loku is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Loku was a travel and local-experiences recommendation startup, founded around 2010, that
+  provided personalized recommendations from local experts. The company raised roughly $2.1M in seed funding
+  and was acquired by Groupon in July 2013, after which the product was shut down. Loku is no longer an
+  operating company. Its former domain, loku.com, no longer hosts a product and now redirects to an Afternic
+  "domain for sale" listing. This profile was surfaced as a 500 Global portfolio lead; enrichment confirms
+  there is no live API, developer portal, documentation, or product surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/loku/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +25,23 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-reason: acquired-by-groupon-2013
+x-acquired-by: Groupon
+x-acquired-date: '2013-07-01'
+x-domain-status: for-sale
+x-enrichment-finding: No API surface. Company defunct (acquired by Groupon 2013); loku.com redirects to an
+  Afternic domain-for-sale page. No developer, API, docs, SDK, or product content exists to enrich.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Travel
+- Local
+- Recommendations
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,8 @@ maintainers:
 common:
 - type: Website
   url: https://loku.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
