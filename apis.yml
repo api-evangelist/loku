@@ -32,7 +32,7 @@ x-acquired-date: '2013-07-01'
 x-domain-status: for-sale
 x-enrichment-finding: No API surface. Company defunct (acquired by Groupon 2013); loku.com redirects to an
   Afternic domain-for-sale page. No developer, API, docs, SDK, or product content exists to enrich.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
